@@ -1,1 +1,1 @@
-# hr_payroll_playwright
+# hr_playwright

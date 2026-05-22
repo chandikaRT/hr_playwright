@@ -1,0 +1,20 @@
+{
+  "name": "hr-playwright",
+  "version": "1.0.0",
+  "scripts": {
+    "test": "playwright test",
+    "test:headed": "playwright test --headed",
+    "test:hr": "playwright test tests/hr/",
+    "test:payroll": "playwright test tests/payroll/",
+    "test:ui": "playwright test --ui",
+    "report": "playwright show-report"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.44.0",
+    "@types/node": "^25.8.0",
+    "typescript": "^5.4.5"
+  }
+}
